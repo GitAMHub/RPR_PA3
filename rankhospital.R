@@ -61,3 +61,5 @@ rankhospital <- function(state, outcome, num = "best") {
                 return (data$Hospital.Name[num])
         }
 }
+
+Thank you to Daniel Rodriguez 

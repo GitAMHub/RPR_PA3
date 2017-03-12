@@ -54,3 +54,5 @@ rankall <- function(outcome, num = "best") {
         
         
 }
+
+Thank you to Daniel Rodriguez 
