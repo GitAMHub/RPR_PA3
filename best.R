@@ -46,6 +46,7 @@ best <- function(state, outcome) {
         }
 }
 
+Thank you to Xiaodan 
 # tests
 #best("TX", "heart attack")
 #best("TX", "heart failure")
