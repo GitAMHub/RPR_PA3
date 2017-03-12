@@ -42,11 +42,11 @@ The Outcome of Care Measures.csv table contains forty seven (47) fields. This ta
 4. Address 2: varchar (50) Lists the second line of the street address of the hospital.
 5. Address 3: varchar (50) Lists the third line of the street address of the hospital.
 6. City: varchar (28) Lists the city in which the hospital is located.
-7. State: varchar (2) Lists the 2 letter State code in which the hospital is located.
+#7. State: varchar (2) Lists the 2 letter State code in which the hospital is located.
 8. ZIP Code: char (5) Lists the 5 digit numeric ZIP for the hospital.
 9. County Name: char (15) Lists the county in which the hospital is located.
 10. Phone Number: char (10) Lists the 10-digit numeric telephone number, including area code, for the Hospital.
-11. Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the risk adjusted rate (percentage) for each hospital.
+#11. Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the risk adjusted rate (percentage) for each hospital.
 12. Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Heart
 Attack: varchar (50) Lists the mortality and readmission category in which the hospital falls. The values are:
 • Better than U.S. National Average
@@ -57,7 +57,7 @@ Attack: varchar (50) Lists the mortality and readmission category in which the h
 14. Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 15. Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Attack: varchar (5) Lists the number of Medicare patients treated for Heart Attack by the Hospital.
 16. Footnote - Hospital 30-Day Death (Mortality) Rates from Heart Attack: Lists the footnote value when appropriate, as related to the Heart Attack Outcome of Care at the hospital.
-17. Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the risk adjusted rate (percentage) for each hospital.
+#17. Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the risk adjusted rate (percentage) for each hospital.
 18. Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Heart Failure: varchar (50) Lists the mortality and readmission category in which the hospital falls. The values are:
 a. Better than U.S. National Average
 b. No Different than U.S. National Average
@@ -67,7 +67,7 @@ d. Number of Cases too Small*
 20. Upper Mortality Estimate - Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the upper bound (Interval Estimate) for each hospital’s risk-adjusted rate.
 21. Number of Patients - Hospital 30-Day Death (Mortality) Rates from Heart Failure: varchar (5) Lists the number of Medicare patients treated for Heart Failure by the Hospital.
 22. Footnote - Hospital 30-Day Death (Mortality) Rates from Heart Failure: Lists the footnote value when appropriate, as related to the Heart Failure Outcome of Care at the hospital.
-23. Hospital 30-Day Death (Mortality) Rates from Pneumonia: Lists the risk adjusted rate (percentage) for each hospital.
+#23. Hospital 30-Day Death (Mortality) Rates from Pneumonia: Lists the risk adjusted rate (percentage) for each hospital.
 24. Comparison to U.S. Rate - Hospital 30-Day Death (Mortality) Rates from Pneumonia: varchar (50) Lists the mortality and readmission category in which the hospital falls. The values are:
 • Better than U.S. National Average
 • No Different than U.S. National Average
