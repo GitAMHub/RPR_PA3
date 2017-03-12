@@ -40,7 +40,15 @@ best <- function(state, outcome) {
                 }
                 
         # Return hospital name in that state with lowest 30-day death rate
-                result <-  hosp_name[!is.na(hosp_name)]; result[sort.list(hosp_name, na.last = NA)]
+                #result <-  hosp_name[!is.na(hosp_name)]; result[sort.list(hosp_name, na.last = NA)]
+                result <- hosp_name
                 return(result)
         }
 }
+
+# tests
+#best("TX", "heart attack")
+#best("TX", "heart failure")
+#best("MD", "heart attack")
+#best("MD", "pneumonia")
+#best("BB", "heart attack")
